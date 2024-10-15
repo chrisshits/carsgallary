@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: url(f1e4d3006a8316a456179f77ce0bfd54.jpg) no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .car-gallery {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .car {
+            background: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 30%;
+        }
+        .dark-background {
+            background-color: #333;
+            color: white;
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        .logos img {
+            width: 200px;
+            margin: 130px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About Me</a>
+    </nav>
+    <h1>Welcome to My Car Gallery <br> Здесь я раскажу о машинах, которые мне нравятся</h1>
+</header>
+
+<section id="gallery">
+    <h2>Машины для семьи </h2>
+    <div class="car-gallery">
+        <div class="car">
+            <h3>Тойота Альфард</h3>
+            <img src="A5FURLE2AUShl1wNThdPgy2cqvs-960.jpg" alt="Тойота Альфард" style="width:100%; border-radius: 5px;">
+        </div>
+        <div class="car">
+            <h3>Додж Рэм</h3>
+            <img src="scale_1200.webp" alt="Car Model 2" style="width:100%; border-radius: 5px;">
+        </div>
+        <div class="car">
+            <h3>Форд Экспловер</h3>
+            <img src="edf84f9s-1920.jpg" alt="Car Model 3" style="width:100%; border-radius: 5px;">
+        </div>
+    </div>
+</section>
+
+<section class="dark-background">
+    <div>
+        <h2>Я, Ефимова Кристина</h2>
+        <p>Я решила рассказать о машинах, которые мне нравятся. Эту любовь ко мне привил мой дедушка.</p>
+    </div>
+    <div class="logos">
+        <img src="8oPxsZvyc3PbiFkYeJrKFxDzPg8-960.png" alt="Car Logo 1">
+        <img src="snapedit_1728997796112.png" alt="Car Logo 2">
+        <img src="snapedit_1728997675896.png" alt="Car Logo 3">
+        <!-- Добавьте больше логотипов по мере необходимости -->
+    </div>
+
+
+</section>
+<section id="gallery">
+    <h2>Машины для себя </h2>
+    <div class="car-gallery">
+        <div class="car">
+            <h3>Хонда Цивик</h3>
+            <img src="711c0a9b81a7f505d4c8b29fd7b01753.png" alt="Тойота Альфард" style="width:100%; border-radius: 5px;">
+        </div>
+        <div class="car">
+            <h3>Тойота Краун</h3>
+            <img src="diploma.webp" alt="Car Model 2" style="width:100%; border-radius: 5px;">
+        </div>
+        <div class="car">
+            <h3>Нисан Скайлайн</h3>
+            <img src="fd125976ed4e511a269870e846140aad.jpg" alt="Car Model 3" style="width:100%; border-radius: 5px;">
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Car Gallery</p>
+</footer>
+
+</body>
+</html>
